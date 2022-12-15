@@ -1,4 +1,4 @@
-import { Greeter} from "./Greeter";
+import { Greeter} from "../src/Greeter";
 
 describe('greeter and name tests', () => {
   test('greeting with default parameter', () => {

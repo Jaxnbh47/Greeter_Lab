@@ -1,4 +1,4 @@
-import { Greeter } from "./Greeter";
+import { Greeter } from "../src/Greeter";
 
 class JavaScriptGreeter extends Greeter {
   greet(name: string) {

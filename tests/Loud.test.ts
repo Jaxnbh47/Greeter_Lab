@@ -1,4 +1,4 @@
-import { LoudGreeter } from "./Loud";
+import { LoudGreeter } from "../src/Loud";
 
 describe('Loudgreeter and name tests', () => {
     test('greeting with default parameter', () => {

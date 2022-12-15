@@ -1,4 +1,4 @@
-import { JavaScriptGreeter } from "./Javascript";
+import { JavaScriptGreeter } from "../src/Javascript";
 
 describe('JavaScript_greeter and name tests', () => {
   test('greeting with default parameter', () => {

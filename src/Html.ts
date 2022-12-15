@@ -1,4 +1,4 @@
-import { Greeter } from "./Greeter";
+import { Greeter } from "../src/Greeter";
 
 class HtmlGreeter extends Greeter {
   tagName: string;

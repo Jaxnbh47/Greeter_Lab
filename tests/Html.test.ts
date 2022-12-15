@@ -1,4 +1,4 @@
-import { HtmlGreeter} from "./Html";
+import { HtmlGreeter} from "../src/Html";
 
 describe('greeter and name tests', () => {
   test('greeting with default parameter', () => {
