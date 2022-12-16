@@ -1,14 +1,14 @@
 import { Greeter } from "../src/Greeter";
 
 class LoudGreeter extends Greeter {
-  loud = "!!!";
+  extra:string = "!!";
 
   addVolume() {
-    this.loud += "!";
+    this.extra += "!";
   }
 
   greet(name: string) {
-    return `${this.greeting}, ${name}${this.loud}`;
+    return `${this.greeting}, ${name}${this.extra}`;
   }
 }
 
