@@ -1,7 +1,7 @@
 import { Greeter } from "../src/Greeter";
 
 class LoudGreeter extends Greeter {
-  extra:string = "!!";
+  extra = "!!";
 
   addVolume() {
     this.extra += "!";
