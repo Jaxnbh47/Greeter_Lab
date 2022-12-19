@@ -1,14 +1,13 @@
 import { JavaScriptGreeter } from "../src/Javascript";
 
 describe('JavaScript_greeter and name tests', () => {
-  test('greeting with default parameter', () => {
+  test('Hello Jackson returns console.log name', () => {
     const greeter = new JavaScriptGreeter('Hello');
     expect(greeter.greet('Jackson')).toBe("console.log(\"Hello, Jackson!\")");
   });
   
-  test('JavaScript_greeter and name tests', () => {
+  test('Hello Jake = console.log name', () => {
     const greeter = new JavaScriptGreeter('Hello');
     expect(greeter.greet('Jake')).toBe("console.log(\"Hello, Jake!\")");
-
   });
 });
