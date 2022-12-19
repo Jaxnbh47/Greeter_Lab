@@ -1,11 +1,6 @@
 import { LoudGreeter } from "../src/Loud";
 
 describe('LoudGreeter', () => {
-  let loudGreeter: LoudGreeter;
-
-  beforeEach(() => {
-    loudGreeter = new LoudGreeter('Grant');
-  });
 
   test('greet without calling addVolume', () => {
     let greeter = new LoudGreeter('Hello')

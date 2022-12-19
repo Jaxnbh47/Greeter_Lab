@@ -7,7 +7,7 @@ describe('JavaScript_greeter and name tests', () => {
   });
   
   test('Hello Jake = console.log name', () => {
-    const greeter = new JavaScriptGreeter('Hello');
-    expect(greeter.greet('Jake')).toBe("console.log(\"Hello, Jake!\")");
+    const greeter = new JavaScriptGreeter('Hi');
+    expect(greeter.greet('Jake')).toBe("console.log(\"Hi, Jake!\")");
   });
 });
