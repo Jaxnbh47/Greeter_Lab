@@ -1,6 +1,6 @@
 import {HtmlGreeter} from'../src/Html';
 import {Greeter} from'../src/Greeter';
-import '../src/Javascript';
-import '../src/Loud';
+import {JavaScriptGreeter} from'../src/Javascript';
+import {LoudGreeter} from '../src/Loud';
 
-console.log(HtmlGreeter, Greeter )
+console.log(HtmlGreeter, Greeter, JavaScriptGreeter, LoudGreeter)
